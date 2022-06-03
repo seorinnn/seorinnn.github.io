@@ -1,0 +1,227 @@
+#detail {
+  display: none;
+}
+#love {
+  display: none;
+}
+#hobby {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:first-child {
+  color: #ff3399;
+}
+body {
+  font-family: 'Gaegu', cursive;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+header nav {
+  margin-right: 100px;
+  font-size: 32px;
+  background-color: pink;
+}
+
+#home .image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home img {
+  width: 400px;
+}
+#home p {
+  font-size: 29px;
+}
+
+#detail .intro{
+  text-align: center;
+  margin: 0 auto;
+
+}
+#detail .intro .introo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#detail .seoul {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+#detail .elementary {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+#detail .middle {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+#detail .high {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+#detail .university {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+#detail .introself {
+  display: flex;
+}
+#detail .mbti {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-right: 1px solid black;
+}
+#detail .right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+
+}
+#detail .blood {
+  display: flex;
+  align-items: center;
+}
+#detail .star {
+  display: flex;
+  align-items: center;
+}
+
+#love .image {
+  text-align: center;
+}
+
+#hobby .hobby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hobby .left {
+  width: 50%;
+    margin-left: 70px;
+}
+#hobby .image1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:22px;
+}
+#hobby .image2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:28px;
+}
+#hobby .right {
+  width: 50%;
+}
+#hobby .image3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:23px;
+  
+}
+#hobby .image4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:23px;
+}
+
+.footer {
+  text-align: center;
+  color: gray;
+  size: 10px;
+}
+@media (max-width: 767px) {
+  #detail .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #detail .introself {
+    flex-direction: column;
+  }
+  #detail .mbti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: none;
+  }
+  #detail .right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  #detail .blood {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #detail .star {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #hobby .hobby {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #hobby .left {
+    width: 50%;
+  }
+  #hobby .image1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #hobby .image2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #hobby .right {
+    width: 50%;
+  }
+  #hobby .image3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #hobby .image4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
